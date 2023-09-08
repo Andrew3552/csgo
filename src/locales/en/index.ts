@@ -28,12 +28,12 @@ export default {
       },
     bookmakers: {
         title: 'Bookmakers',
-        xBet: 'Order a card and pay for the \n amount from <span style="color: #0075FF; font-weight: bold">1000</span> UAH',
-        betOnRed: 'Order a card and pay for the \n amount from <span style="color: #FF0000; font-weight: bold">1000</span> UAH',
-        betWinner: 'Order a card and pay for the \n amount from <span style="color: #FFCF00; font-weight: bold">1000</span> UAH',
-        ggBet: 'Order a card and pay for the \n amount from <span style="color: #FF8A00; font-weight: bold">1000</span> UAH',
-        mrBet: 'Order a card and pay for the \n amount from <span style="color: #0075FF; font-weight: bold">1000</span> UAH',
-        starzBet: 'Order a card and pay for the \n amount from від <span style="color: #FF0000; font-weight: bold">1000</span> UAH',
+        xBet: 'Order a card and pay for the \n amount from <span style="color: #0075FF; font-weight: bold">27</span> USD',
+        betOnRed: 'Order a card and pay for the \n amount from <span style="color: #FF0000; font-weight: bold">27</span> USD',
+        betWinner: 'Order a card and pay for the \n amount from <span style="color: #FFCF00; font-weight: bold">27</span> USD',
+        ggBet: 'Order a card and pay for the \n amount from <span style="color: #FF8A00; font-weight: bold">27</span> USD',
+        mrBet: 'Order a card and pay for the \n amount from <span style="color: #0075FF; font-weight: bold">27</span> USD',
+        starzBet: 'Order a card and pay for the \n amount from від <span style="color: #FF0000; font-weight: bold">27</span> USD',
         btn: 'To Perform',
     },
     additionals: {

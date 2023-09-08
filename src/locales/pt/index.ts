@@ -28,12 +28,12 @@ export default {
       },
     bookmakers: {
         title: 'Casas de apostas',
-        xBet: 'Completar tarefas e \n obter skins de <span style="color: #0075FF; font-weight: bold">1000</span> грн',
-        betOnRed: 'Completar tarefas e \n obter skins de <span style="color: #FF0000; font-weight: bold">1000</span> грн',
-        betWinner: 'Completar tarefas e \n obter skins de <span style="color: #FFCF00; font-weight: bold">1000</span> грн',
-        ggBet: 'Completar tarefas e \n obter skins de <span style="color: #FF8A00; font-weight: bold">1000</span> грн',
-        mrBet: 'Completar tarefas e \n obter skins de <span style="color: #0075FF; font-weight: bold">1000</span> грн',
-        starzBet: 'Completar tarefas e \n obter skins de <span style="color: #FF0000; font-weight: bold">1000</span> грн',
+        xBet: 'Completar tarefas e \n obter skins de <span style="color: #0075FF; font-weight: bold">135</span> R$',
+        betOnRed: 'Completar tarefas e \n obter skins de <span style="color: #FF0000; font-weight: bold">135</span> R$',
+        betWinner: 'Completar tarefas e \n obter skins de <span style="color: #FFCF00; font-weight: bold">135</span> R$',
+        ggBet: 'Completar tarefas e \n obter skins de <span style="color: #FF8A00; font-weight: bold">135</span> R$',
+        mrBet: 'Completar tarefas e \n obter skins de <span style="color: #0075FF; font-weight: bold">135</span> R$',
+        starzBet: 'Completar tarefas e \n obter skins de <span style="color: #FF0000; font-weight: bold">135</span> R$',
         btn: 'Executar',
     },
     additionals: {

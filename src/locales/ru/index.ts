@@ -28,12 +28,12 @@ export default {
       },
     bookmakers: {
         title: 'Букмекеры',
-        xBet: 'Выполняйте задания и \n получайте скины от <span style="color: #0075FF; font-weight: bold">1000</span> грн',
-        betOnRed: 'Выполняйте задания и \n получайте скины от <span style="color: #FF0000; font-weight: bold">1000</span> грн',
-        betWinner: 'Выполняйте задания и \n получайте скины от <span style="color: #FFCF00; font-weight: bold">1000</span> грн',
-        ggBet: 'Выполняйте задания и \n получайте скины от <span style="color: #FF8A00; font-weight: bold">1000</span> грн',
-        mrBet: 'Выполняйте задания и \n получайте скины от <span style="color: #0075FF; font-weight: bold">1000</span> грн',
-        starzBet: 'Выполняйте задания и \n получайте скины от <span style="color: #FF0000; font-weight: bold">1000</span> грн',
+        xBet: 'Выполняйте задания и \n получайте скины от <span style="color: #0075FF; font-weight: bold">12600</span> тнг',
+        betOnRed: 'Выполняйте задания и \n получайте скины от <span style="color: #FF0000; font-weight: bold">12600</span> тнг',
+        betWinner: 'Выполняйте задания и \n получайте скины от <span style="color: #FFCF00; font-weight: bold">12600</span> тнг',
+        ggBet: 'Выполняйте задания и \n получайте скины от <span style="color: #FF8A00; font-weight: bold">12600</span> тнг',
+        mrBet: 'Выполняйте задания и \n получайте скины от <span style="color: #0075FF; font-weight: bold">12600</span> тнг',
+        starzBet: 'Выполняйте задания и \n получайте скины от <span style="color: #FF0000; font-weight: bold">12600</span> тнг',
         btn: 'Выполнять',
     },
     additionals: {
