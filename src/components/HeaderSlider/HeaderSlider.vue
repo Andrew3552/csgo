@@ -98,7 +98,7 @@ defineProps<HeaderSliderProps>();
 
 const modules = ref<any[]>([Autoplay, FreeMode, Mousewheel]);
 
-const counter = ref<number>(parseInt(localStorage.getItem('counter')) || 0); // Восстановление значения из localStorage
+const counter = ref<number>(parseInt(localStorage.getItem('counter')) || 5482); // Восстановление значения из localStorage
 
 // Функция для изменения значения счетчика (увеличение или уменьшение)
 function changeCounter() {
@@ -116,7 +116,7 @@ onMounted(() => {
 
 // Функция для генерации случайного времени (в миллисекундах) между изменениями
 function getRandomTime() {
-  return Math.random() * 5000 + 1000; // От 1 до 6 секунд
+  return Math.random() * 15000 + 1000; // От 1 до 6 секунд
 }
 
 // При демонтаже компонента (перезагрузке страницы) сохраняем значение счетчика
