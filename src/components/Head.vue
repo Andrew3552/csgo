@@ -22,7 +22,7 @@
         {{ $t("header.description") }}
       </p>
       <div :class="$style.blockButton">
-      <a href="/" :class="$style.button"> {{ $t("header.button") }} </a>
+      <a href="#howitworks" :class="$style.button"> {{ $t("header.button") }} </a>
       </div>
     </div>
   </div>

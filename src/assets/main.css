@@ -9,4 +9,5 @@
 html {
   background: #0A0D1D;
   font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
 }

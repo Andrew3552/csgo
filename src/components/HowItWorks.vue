@@ -1,5 +1,5 @@
 <template>
-    <div :class="$style.howitworks">
+    <div id="howitworks" :class="$style.howitworks">
         <div :class="$style.title">
             <img src="/images/title.png" :class="$style.title__image">
             <span>{{ $t('howitworks.title') }}</span>
@@ -8,7 +8,8 @@
             <div v-for="key in ['part1', 'part2', 'part3']" :key="key" :class="$style.list__item">
                 <img :src="howitworksImages[key]" alt="How It Works Image" :class="$style.list__img" />
                 <h3>{{ $t(`howitworks.${key}`) }}</h3>
-                <p :class="$style.list__text" v-html="$t(`howitworks_text.${key}`)"></p>
+                <p :class="[$style.list__text, key !== 'part3' ? $style.addMargin : '']" v-html="$t(`howitworks_text.${key}`)"></p>
+                <a :class="$style.list__link" v-if="key === 'part3'" href="https://t.me/cs365betsupport">{{ $t('howitworks_link.part3') }}</a>
                 <span :class="$style.list__number">{{ $t(`howitworks_number.${key}`) }}</span>
                 <img src="/images/title.png" :class="$style.list__image">
             </div>
@@ -130,7 +131,7 @@ const howitworksImages = ref({
         font-weight: 400;
         line-height: 1.2;
         word-wrap: break-word;
-        margin: 12px 0 5px;
+        margin: 12px 0 12px;
 
         @media (max-width: 1461px) {
             font-size: 15px;
@@ -142,6 +143,33 @@ const howitworksImages = ref({
             margin-top: 6px;
         }
     }
+
+    .addMargin{
+        margin-bottom: 52px;
+    }
+
+    &__link {
+        color: #FFF;
+        border: 1px solid #FFF;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+        width: 130px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        text-decoration: none;
+        transition: 200ms ease-in-out;
+        text-transform: uppercase;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+
 
     &__image {
         max-width: 456px;

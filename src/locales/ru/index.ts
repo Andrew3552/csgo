@@ -23,13 +23,16 @@ export default {
     howitworks_text: {
         part1: 'Выбирайте скин, который больше<br>всего понравился и жми "Выполнять"',
         part2: 'Зарегистрируйтесь в букмекерской<br>конторе и сделайте ставку',
-        part3: 'Получайте скин<br>и играйте на новом уровне',
+        part3: 'Для получения скина,<br>пишите нам в телеграм',
       },
     howitworks_number: {
         part1: '01',
         part2: '02',
         part3: '03',
       },
+    howitworks_link:{
+        part3: 'Написать нам'
+    },
     bookmakers: {
         title: 'Букмекеры',
         xBet: 'Выполняйте задания и \n получайте скины от <span style="color: #0075FF; font-weight: bold">12600</span> тнг',
@@ -42,11 +45,12 @@ export default {
     },
     additionals: {
         title: 'Дополнительные задания',
-        note: 'Вскоре'
+        note: 'В ближайшее время'
     },
     footer: {
         userAgreement: 'Согласие пользователя',
         cookiePolicy: 'Политика использования файлов cookie',
-        privacyPolicy: 'Политика конфиденциальности'
+        privacyPolicy: 'Политика конфиденциальности',
+        tgchanel: 'Телеграм канал CS365BET'
     }
 }

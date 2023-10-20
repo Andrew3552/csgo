@@ -1,13 +1,17 @@
 <template>
   <div :class="$style.footer">
     <div :class="$style.left">
-      <a href="/">Promo codes csgo.net</a>
+      <a href="/">FAQ</a>
       <a href="/">{{ $t('footer.userAgreement')}}</a>
       <a href="/">{{ $t('footer.cookiePolicy')}}</a>
       <a href="/">{{ $t('footer.privacyPolicy')}}</a>
     </div>
 
     <div :class="$style.right">
+      <a href="https://t.me/cs365bet" :class="$style.tgchanel">
+        <img src="/images/tg4.png" :class="$style.tg__image">
+        <span>{{ $t('footer.tgchanel') }}</span>
+      </a>
       <svg width="181" height="100" viewBox="0 0 181 100" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_1_3660)">
         <g clip-path="url(#clip1_1_3660)">
@@ -127,5 +131,25 @@
 
   .pre {
     margin-right: 22px;
+  }
+
+  .tg__image{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .tgchanel{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #B7BCDB;
+    transition: 200ms ease-in-out;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .tgchanel:hover{
+    opacity: .8;
   }
 </style>
